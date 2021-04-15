@@ -8,8 +8,224 @@
   min-height: 0;
   background: #ffffff;
 }
-.box {
+.box__c0J0 {
+  display: flex;
   position: relative;
-  font-size: 32px;
-  padding: 32px;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  background: #d7d7d7;
+}
+.box__s7DPj {
+  position: relative;
+  align-self: center;
+  font-size: 18px;
+  font-family: "Barlow";
+  line-height: 30px;
+  color: #194a7d;
+}
+.box__jDt1P {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+.link__rs8O1 {
+  position: relative;
+  color: #29abe2;
+  margin-right: 30px;
+  align-self: stretch;
+}
+.link__tMgGq {
+  position: relative;
+  color: #29abe2;
+  margin-right: 30px;
+  align-self: stretch;
+}
+.link__k7Sr {
+  position: relative;
+  color: #29abe2;
+  margin-right: 30px;
+}
+.button1:global(.__wab_instance) {
+  position: relative;
+  margin-right: 30px;
+}
+.button__fv9WT {
+  position: relative;
+  margin-right: 30px;
+  color: #ffffff;
+  line-height: 15px;
+  border-bottom-right-radius: 20px;
+  background: #194a7d;
+  border: 1px solid #194a7d;
+}
+.button__w9Bcl {
+  position: relative;
+  margin-right: 30px;
+  color: #ffffff;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  border-bottom-right-radius: 20px;
+  background: #194a7d;
+  border: 1px solid #194a7d;
+}
+.box__rDuq4 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  align-self: flex-end;
+}
+.box__swDn3 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin: 25px 40px;
+}
+.box___3KcwS {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 20px;
+  line-height: 16px;
+  width: 136px;
+  height: 16px;
+  color: #194a7d;
+  font-weight: 600;
+  transition-property: all;
+  transition-duration: 1s;
+  flex-shrink: 0;
+}
+.box__rUrpi {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin: 25px 40px;
+}
+.box__jUsAo {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 20px;
+  line-height: 16px;
+  width: 111px;
+  height: 20px;
+  color: #194a7d;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.box___3TgP3 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin: 25px 40px;
+}
+.box__r5Zzg {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 20px;
+  line-height: 16px;
+  width: 197px;
+  height: 20px;
+  color: #194a7d;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.box__eaTt {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin: 25px 40px;
+}
+.box__oNb8Q {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 20px;
+  line-height: 16px;
+  width: 111px;
+  height: 20px;
+  color: #194a7d;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.box__wf29M {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #194a7d;
+}
+.box__ivjvZ {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__tgQ2J {
+  display: block;
+  position: relative;
+  align-self: stretch;
+  background: #194a7d;
+}
+.box__dkKp1 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  left: 0px;
+  top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 536px;
+  height: 219px;
+  background: #194a7d;
+}
+.box__brdvy {
+  position: relative;
+  left: auto;
+  top: auto;
+  padding-bottom: 5px;
+  font-size: 55px;
+  color: #ffffff;
+  width: 327px;
+  height: 48px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.box___73M5S {
+  position: relative;
+  left: auto;
+  top: auto;
+  color: #29abe2;
+  font-size: 55px;
+  font-weight: 600;
+  width: 392px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.box__hD6Hu {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 20px;
+  color: #ffffff;
+}
+.box__skpEg {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }

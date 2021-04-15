@@ -29,6 +29,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants,
 } from "@plasmicapp/react-web"
+import Button1 from "../../Button1" // plasmic-import: EPtFtCkT_p/component
 
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as defaultcss from "../plasmic__default_style.module.css" // plasmic-import: global/defaultcss
@@ -47,7 +48,7 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>()
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">
-  box?: p.Flex<"div">
+  button1?: p.Flex<typeof Button1>
 }
 
 export interface DefaultHomepageProps {
@@ -82,16 +83,175 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box
-            )}
-          >
-            {"Welcome to your first page."}
+          <div className={classNames(defaultcss.all, sty.box__c0J0)}>
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__s7DPj
+              )}
+            >
+              {"IoT for business customers"}
+            </div>
+          </div>
+
+          <div className={classNames(defaultcss.all, sty.box__jDt1P)}>
+            <p.PlasmicLink
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.link__rs8O1
+              )}
+              component={Link}
+              href={"https://1nce.com/en/careers/" as const}
+              platform={"gatsby"}
+            >
+              {"Careers"}
+            </p.PlasmicLink>
+
+            <p.PlasmicLink
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.link__tMgGq
+              )}
+              component={Link}
+              href={"https://1nce.com/en/help-center/" as const}
+              platform={"gatsby"}
+            >
+              {"Support"}
+            </p.PlasmicLink>
+
+            <p.PlasmicLink
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.link__k7Sr
+              )}
+              component={Link}
+              href={"https://1nce.com/en/1nce-newsletter/" as const}
+              platform={"gatsby"}
+            >
+              {"Newsletter"}
+            </p.PlasmicLink>
+
+            <Button1
+              data-plasmic-name={"button1"}
+              data-plasmic-override={overrides.button1}
+              className={classNames("__wab_instance", sty.button1)}
+            />
+
+            <button
+              className={classNames(
+                defaultcss.button,
+                defaultcss.__wab_text,
+                sty.button__fv9WT
+              )}
+            >
+              {"Login"}
+            </button>
+
+            <button
+              className={classNames(
+                defaultcss.button,
+                defaultcss.__wab_text,
+                sty.button__w9Bcl
+              )}
+            >
+              {"AWS Marketplace"}
+            </button>
+          </div>
+
+          <div className={classNames(defaultcss.all, sty.box__rDuq4)}>
+            <div className={classNames(defaultcss.all, sty.box__swDn3)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.box___3KcwS
+                )}
+              >
+                {"IOT FLAT RATE"}
+              </div>
+            </div>
+
+            <div className={classNames(defaultcss.all, sty.box__rUrpi)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.box__jUsAo
+                )}
+              >
+                {"NETWORK"}
+              </div>
+            </div>
+
+            <div className={classNames(defaultcss.all, sty.box___3TgP3)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.box__r5Zzg
+                )}
+              >
+                {"NEWS AND INSIGHTS"}
+              </div>
+            </div>
+
+            <div className={classNames(defaultcss.all, sty.box__eaTt)}>
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.box__oNb8Q
+                )}
+              >
+                {"COMPANY"}
+              </div>
+            </div>
+          </div>
+
+          <div className={classNames(defaultcss.all, sty.box__wf29M)}>
+            <div className={classNames(defaultcss.all, sty.box__ivjvZ)}>
+              <div className={classNames(defaultcss.all, sty.box__tgQ2J)}>
+                <div className={classNames(defaultcss.all, sty.box__dkKp1)}>
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__brdvy
+                    )}
+                  >
+                    {"Get ready for"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box___73M5S
+                    )}
+                  >
+                    {"1NCE FOR ALL!"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__hD6Hu
+                    )}
+                  >
+                    {
+                      "12 MONTH OF FREE IOT CONNECTIVITY. 1NCE For All is a free IoT tariff to connect IoT Solutions without any costs. The free IoT SIM can be ordered exclusively in AWS Marketplace."
+                    }
+                  </div>
+                </div>
+
+                <div className={classNames(defaultcss.all, sty.box__skpEg)} />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -100,8 +260,8 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"],
+  root: ["root", "button1"],
+  button1: ["button1"],
 } as const
 type NodeNameType = keyof typeof PlasmicDescendants
 type DescendantsType<
@@ -109,7 +269,7 @@ type DescendantsType<
 > = typeof PlasmicDescendants[T][number]
 type NodeDefaultElementType = {
   root: "div"
-  box: "div"
+  button1: typeof Button1
 }
 
 type ReservedPropsType = "variants" | "args" | "overrides"
@@ -167,7 +327,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
+    button1: makeNodeComponent("button1"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
