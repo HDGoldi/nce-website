@@ -38,6 +38,19 @@
           "cssFilePath": "plasmic/1_nce_website/PlasmicHomepage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "EPtFtCkT_p",
+          "name": "Button1",
+          "type": "managed",
+          "projectId": "esfshpqx8ZjBqQ8kozVymU",
+          "renderModuleFilePath": "plasmic/1_nce_website/PlasmicButton1.tsx",
+          "importSpec": {
+            "modulePath": "Button1.tsx"
+          },
+          "cssFilePath": "plasmic/1_nce_website/PlasmicButton1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [],

@@ -1,0 +1,10 @@
+.root {
+  color: #ffffff;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 1s;
+  border-bottom-right-radius: 20px;
+  position: relative;
+  background: #194a7d;
+  border: 1px solid #194a7d;
+}
